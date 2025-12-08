@@ -1,0 +1,19 @@
+.flex {
+    display: flex;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.align-item {
+    align-items: center;
+}
+.align-content {
+    align-content: center;
+}
+
+.border {
+    border: 1px solid aqua;
+    border-radius: 1rem;
+}
