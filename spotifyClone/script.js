@@ -16,7 +16,7 @@ function secondsToMinutes(seconds) {
 
 
 async function getSongs() {
-    let a = await fetch(`http://127.0.0.1:5500/Songs/`);
+    let a = await fetch(`/Songs/`);
     let response = await a.text()
     let div = document.createElement("div");
     div.innerHTML = response;
@@ -167,4 +167,5 @@ async function playMusic(trackname, pause = false) {
             currentSong.volume = .1;
         }
     })
+
 })()
